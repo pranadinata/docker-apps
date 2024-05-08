@@ -1,44 +1,30 @@
-# ${pkg.name}
+[![Express Logo](https://i.cloudup.com/zfY6lL7eFa-3000x3000.png)](http://expressjs.com/)
 
-${badge('npm')} ${badge('npm-license')} ${badge('github-issues')}  ${badge('circleci')}
+[Express'](https://www.npmjs.com/package/express) application generator.
 
-${pkg.description}
+[![NPM Version][npm-image]][npm-url]
+[![NPM Downloads][downloads-image]][downloads-url]
+[![Linux Build][github-actions-ci-image]][github-actions-ci-url]
+[![Windows Build][appveyor-image]][appveyor-url]
 
-${badge('nodei')}
+## Quick Start
 
-${badge('travis-status')}
-${badge('github-stars')}
-${badge('github-forks')}
+The quickest way to get started with express is to utilize the executable `express(1)` to generate an application as shown below:
 
-${badge('github-forks')}
+Create the app:
 
-${badge('dependencies')}
-${badge('devDependencies')}
+```bash
+$ express --view=hbs /tmp/foo && cd /tmp/foo
+```
 
-## Features
+Install dependencies:
 
+```bash
+$ npm install
+```
 
-## Install
+Start your Express.js app at `http://localhost:3000/`:
 
-`npm install --save ${pkg.name}`
-
-
-## Scripts
-
-${scripts()}
-
-## Dependencies
-
-${dependencies()}
-
-## Contributing
-
-Contributions welcome; Please submit all pull requests against the master branch. If your pull request contains JavaScript patches or features, you should include relevant unit tests. Please check the [Contributing Guidelines](contributng.md) for more details. Thanks!
-
-## Author
-
-${author()}
-
-## License
-
-${license()}
+```bash
+$ npm start
+```
