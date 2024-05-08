@@ -2,7 +2,7 @@ docker stop frontend-apps
 docker rm frontend-apps   
 docker rmi frontend-server 
 docker build -t frontend-server . -f frontend/Dockerfile
-docker create -it --name frontend-apps -p 3001:3001 frontend-server 
+docker create -it --name frontend-apps -p 3000:3000 frontend-server 
 docker start frontend-apps 
 
 
