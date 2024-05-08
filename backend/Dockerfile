@@ -3,6 +3,6 @@ RUN mkdir -p /opt/app
 WORKDIR /opt/app
 COPY backend/package.json .
 RUN npm install
-COPY . /opt/app/
+COPY backend/. /opt/app/
 EXPOSE 3001
 CMD [ "npm", "start"]
