@@ -7,9 +7,9 @@ docker start frontend-apps
 
 
 ### **Catatan Penting** ###
-#stop container backend-apps
-#remove container backend-apps
-#remove images backend-server yang di buat di Dockerfile 
-#build ulang backend-server dari file Dockerfile
-#buat container backend-apps dari images backend-server
-#start container backend-apps 
+#stop container frontend-apps
+#remove container frontend-apps
+#remove images frontend-server yang di buat di Dockerfile 
+#build ulang frontend-server dari file Dockerfile
+#buat container frontend-apps dari images frontend-server
+#start container frontend-apps 

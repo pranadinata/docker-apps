@@ -1,0 +1,19 @@
+services:
+    frontend_apps: 
+          container_name: frontend_apps
+          build:
+            context: ./frontend/
+            dockerfile: Dockerfile
+          restart: always
+          ports:
+            - "3000:3000"
+    backend_apps: 
+          container_name: backend_apps
+          build:
+            context: ./backend/
+            dockerfile: Dockerfile
+          restart: always
+          ports:
+            - "3002:3002"
+
+          

@@ -4,5 +4,5 @@ WORKDIR /opt/app/express
 COPY backend/package.json .
 RUN npm install
 COPY backend . /opt/app/express/
-EXPOSE 3001
-CMD [ "npm", "start"]
+# EXPOSE 3001
+# CMD [ "npm", "start"]
