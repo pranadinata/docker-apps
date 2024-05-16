@@ -5,4 +5,4 @@ COPY package.json .
 RUN npm install
 COPY . /opt/app/express/
 EXPOSE 3002
-# CMD [ "npm", "start"]
+CMD [ "npm", "start"]
