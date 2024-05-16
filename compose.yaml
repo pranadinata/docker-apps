@@ -1,12 +1,12 @@
 services:
-    frontend_apps: 
-          container_name: frontend_apps
-          build:
-            context: ./frontend/
-            dockerfile: Dockerfile
-          tty: true
-          ports:
-            - "3000:3000"
+    # frontend_apps: 
+    #       container_name: frontend_apps
+    #       build:
+    #         context: ./frontend/
+    #         dockerfile: Dockerfile
+    #       tty: true
+    #       ports:
+    #         - "3000:3000"
     backend_apps: 
           container_name: backend_apps
           build:
