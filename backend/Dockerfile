@@ -4,5 +4,5 @@ WORKDIR /opt/app/express
 COPY package.json .
 RUN npm install
 COPY . /opt/app/express/
-# EXPOSE 3001
+EXPOSE 3002
 # CMD [ "npm", "start"]
